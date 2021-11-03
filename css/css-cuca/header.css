@@ -1,0 +1,29 @@
+header{
+    background-color: #0005;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 50px;
+   }
+    header .logo{
+       padding-top: 20px;
+    }
+   .menu ul{
+       display: flex;
+       list-style: none;
+       gap:30px;
+       
+   }
+   .menu a{
+       color: #fff;
+       text-decoration: none;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-size: 20px;
+       transition: color 0.6s;
+   }
+   .menu a:houver{
+       color: red;
+   }
+   
